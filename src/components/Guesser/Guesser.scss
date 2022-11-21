@@ -1,0 +1,28 @@
+.guesser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__color-box {
+    height: 150px;
+    width: 200px;
+    margin: 0 2rem 2rem;
+  }
+
+  &__button-container {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  &__answer {
+    margin-top: 1rem;
+
+    &--correct {
+      color: green;
+    }
+
+    &--incorrect {
+      color: red;
+    }
+  }
+}
